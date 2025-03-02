@@ -24,10 +24,7 @@ COPY ./site/ /var/www/html/
 CMD ["sh", "-c", "echo hello from $HOSTNAME"]
 ```
 
-<<<<<<< HEAD
-=======
-![screenshots/Screenshot_6.png](screenshots/Screenshot_6.png)
->>>>>>> 86826e94423f1653b3eb47be9a0626fe377db8b1
+
 ![image](screenshots/Screenshot_6.png)
 
 4. В той же папке проекта создаю папку site, в ней создаю файл index.html с произвольным содержимым:
