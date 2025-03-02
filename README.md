@@ -24,7 +24,8 @@ COPY ./site/ /var/www/html/
 CMD ["sh", "-c", "echo hello from $HOSTNAME"]
 ```
 
-![screenshots\Screenshot_6.png](screenshots\Screenshot_6.png)
+![screenshots/Screenshot_6.png](screenshots/Screenshot_6.png)
+![image](screenshots/Screenshot_6.png)
 
 4. В той же папке проекта создаю папку site, в ней создаю файл index.html с произвольным содержимым:
 
