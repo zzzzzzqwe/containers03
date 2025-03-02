@@ -12,7 +12,7 @@
 ### Установка Docker Desktop и подготовка: 
 1. Скачиваю Docker Desktop с официального сайта.
 
-https://app.docker.com/
+    https://app.docker.com/
 
 2. Создаю репозиторий containers03 и клонирую его себе на компьютер через vscode.
 
