@@ -24,11 +24,11 @@ COPY ./site/ /var/www/html/
 CMD ["sh", "-c", "echo hello from $HOSTNAME"]
 ```
 
-![image](screenshots\Screenshot_6.png)
+![image](screenshots/Screenshot_6.png)
 
 4. В той же папке проекта создаю папку site, в ней создаю файл index.html с произвольным содержимым:
 
-![image](screenshots\Screenshot_7.png)
+![image](screenshots/Screenshot_7.png)
 
 ## Запуск и тестирование
 
@@ -44,7 +44,7 @@ cd "C:\Users\HOME\Desktop\Универ\2 курс 2 семестр\CV\lab03\cont
 docker build -t containers03 .
 ```
 
-![image](screenshots\Screenshot_1.png)
+![image](screenshots/Screenshot_1.png)
 
 *Сколько времени создавался образ?*
 
@@ -56,7 +56,7 @@ docker build -t containers03 .
 docker run --name containers03 containers03
 ```
 
-![image](screenshots\Screenshot_2.png)
+![image](screenshots/Screenshot_2.png)
 
 *Что было выведено в консоли?*
 
@@ -68,7 +68,7 @@ docker run --name containers03 containers03
 docker rm containers03
 docker run -ti --name containers03 containers03 bash
 ```
-![image](screenshots\Screenshot_4.png)
+![image](screenshots/Screenshot_4.png)
 
 Затем в открывшемся окне выполняю команды:
 
@@ -77,7 +77,7 @@ cd /var/www/html/
 ls -l
 ```
 
-![image](screenshots\Screenshot_5.png)
+![image](screenshots/Screenshot_5.png)
 
 *Что выводится на экране?*
 
